@@ -12,6 +12,9 @@ public class ContainsDuplicate {
 	 * [4]Else add the element to the hashset created.</br>
 	 * [5]Returning false by default</br>
 	 * 
+	 * Time complexity will be O(n)</br>
+	 * Space complexity will be O(n)</br>
+	 * 
 	 * @param nums
 	 * @return boolean
 	 */
@@ -21,7 +24,7 @@ public class ContainsDuplicate {
 		for (int i = 0; i < nums.length; i++) {
 			if (hash.contains(nums[i])) {
 				return true;
-			}
+			} 
 			hash.add(nums[i]);
 		}
 		return false;

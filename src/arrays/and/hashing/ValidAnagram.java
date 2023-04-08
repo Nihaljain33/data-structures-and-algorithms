@@ -2,7 +2,7 @@ package arrays.and.hashing;
 
 public class ValidAnagram {
 	/**
-	 * Checks if the array has duplicate element in them.</br>
+	 * Checks if the array elements are anagrams.</br>
 	 * </br>
 	 * [1]Return false if the length of the input strings are not same</br> 
 	 * [2]Create a new int array of length 26</br>
@@ -12,6 +12,9 @@ public class ValidAnagram {
 	 * By adding and removing the counts of the char counts will result in an array containing only 0 elements if the strings are anagram</br>
 	 * [6]Iterate over the int array created and return false if it contains value more than 0 and return true by default</br>
 	 * 
+	 * Time complexity will be O(n)</br>
+	 * Space complexity will be O(n)</br>
+	 * 
 	 * @param nums
 	 * @return boolean
 	 */
@@ -19,6 +22,7 @@ public class ValidAnagram {
 		if(s.length() != t.length()) {
             return false;
         }
+		
         int[] alphabets = new int[26];
         for(int i = 0; i < s.length(); i++) {
             alphabets[s.charAt(i) - 'a']++;
