@@ -12,6 +12,9 @@ public class ContainsDuplicate {
 	 * [4]Else add the element to the hashset created.</br>
 	 * [5]Returning false by default</br>
 	 * 
+	 * Time complexity will be O(n)</br>
+	 * Space complexity will be O(n)</br>
+	 * 
 	 * @param nums
 	 * @return boolean
 	 */
