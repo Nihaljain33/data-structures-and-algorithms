@@ -22,6 +22,7 @@ public class ValidAnagram {
 		if(s.length() != t.length()) {
             return false;
         }
+		
         int[] alphabets = new int[26];
         for(int i = 0; i < s.length(); i++) {
             alphabets[s.charAt(i) - 'a']++;
