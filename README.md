@@ -1,2 +1,2 @@
 # data-structures-and-algorithms
-Place holder for dsa practice problems
+Anything related to Data Structures and Algorithms
