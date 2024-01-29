@@ -2,7 +2,7 @@ package algorithms.sorting;
 
 public class BubbleSort {
 
-    public static void bubble(int[] arr) {
+    public static void bubbleSort(int[] arr) {
 
         boolean swapped;
         // run the steps n-1 times
