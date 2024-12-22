@@ -1,4 +1,4 @@
-package problems;
+package problems.arrayshashing;
 
 import java.util.*;
 
@@ -30,6 +30,7 @@ public class GroupAnagrams {
         String[] exampleOne = {"eat","tea","tan","ate","nat","bat"};
         String[] exampleTwo = {""};
         String[] exampleThree = {"a"};
+
         System.out.println(groupAnagrams(exampleOne));
         System.out.println(groupAnagrams(exampleTwo));
         System.out.println(groupAnagrams(exampleThree));
