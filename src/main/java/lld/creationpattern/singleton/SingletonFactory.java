@@ -1,10 +1,5 @@
 package lld.creationpattern.singleton;
 
-import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
-
-import java.util.HashMap;
-import java.util.Map;
-
 public class SingletonFactory {
 
     private static volatile SingletonFactory singletonFactory;

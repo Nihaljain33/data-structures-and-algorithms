@@ -20,7 +20,7 @@ public class EncodeDecodeStrings {
     public static List<String> decode(String string) {
         List<String> result = new ArrayList<>();
         char[] arr = string.toCharArray();
-        for(int i = 0; i < arr.length; i++) {
+         for(int i = 0; i < arr.length; i++) {
             StringBuilder sb = new StringBuilder();
             // Extracting the number of characters in the word.
             while(arr[i] != '#') {

@@ -86,5 +86,10 @@ public class Streams {
                                 .max(Integer::compare)
                 ).get();
         System.out.println("Second Highest: " + secondHighest);
+
+        Integer min = integerList.stream().min(Comparator.naturalOrder()).get();
+        Integer max = integerList.stream().max(Comparator.naturalOrder()).get();
+
+        System.out.println("MIn: " + min + ", Max: " + max);
     }
 }
