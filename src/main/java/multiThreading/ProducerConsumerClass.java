@@ -12,7 +12,6 @@ public class ProducerConsumerClass {
                 }
             } catch(InterruptedException exception) {
                     Thread.currentThread().interrupt();
-
             }
         });
 
@@ -24,7 +23,6 @@ public class ProducerConsumerClass {
                 }
             } catch(InterruptedException exception) {
                 Thread.currentThread().interrupt();
-
             }
         });
 
